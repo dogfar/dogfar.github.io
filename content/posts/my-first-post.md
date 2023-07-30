@@ -25,4 +25,4 @@ draft: false
 ```
 
 试着放一只Bocchi酱在这里：
-![image](https://github.com/dogfar/dogfar.github.io/blob/main/content/picture/bocchi.gif)
+![image](/picture/bocchi.gif)
