@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Notebook</title>
+    <link>http://cheyzhang.top/</link>
+    <description>Recent content on Notebook</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-cn</language>
+    <lastBuildDate>Sun, 30 Jul 2023 20:25:55 +0800</lastBuildDate><atom:link href="http://cheyzhang.top/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>My First Post</title>
+      <link>http://cheyzhang.top/posts/my-first-post/</link>
+      <pubDate>Sun, 30 Jul 2023 20:25:55 +0800</pubDate>
+      
+      <guid>http://cheyzhang.top/posts/my-first-post/</guid>
+      <description>Introduction This is bold text, and this is emphasized text.
+Visit the Hugo website!</description>
+    </item>
+    
+  </channel>
+</rss>

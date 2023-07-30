@@ -1,0 +1,4 @@
+baseURL = 'http://cheyzhang.top/'
+languageCode = 'zh-cn'
+title = 'Notebook'
+theme = 'hugo-PaperMod'
