@@ -23,3 +23,6 @@ draft: false
 [bug] .*' /  .*' ; .*`- +'  `*' 
       `*-*   `*-*  `*-*'
 ```
+
+试着放一只Bocchi酱在这里：
+![image](https://github.com/dogfar/dogfar.github.io/tree/main/content/picture/bocchi.gif)
