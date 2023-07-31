@@ -1,7 +1,7 @@
 ---
 title: "两个crypto题解"
 date: 2023-07-31T14:08:14+08:00
-draft: true
+draft: false
 ---
 
 这两个题目都不是数学题，是与python相关的题目。
@@ -90,13 +90,13 @@ r.append(ord('_'))
 zero = pow(2, 64)
 
 for i in range(48, 58):
-	for j in tqdm(range(65, 91)):
-		for k in range(97, 123):
-			for _ in range(100000):
-				ciphers = np.array(random.choices(r, k = L) + [i, j, k])
-				if isPrime(int(ciphers.sum())) and isPrime(int(ciphers.prod())):
-					print(ciphers)
-					exit(0)
+    for j in tqdm(range(65, 91)):
+        for k in range(97, 123):
+            for _ in range(100000):
+                ciphers = np.array(random.choices(r, k = L) + [i, j, k])
+                if isPrime(int(ciphers.sum())) and isPrime(int(ciphers.prod())):
+                    print(ciphers)
+                    exit(0)
 
 # 9eg3c3Wey91Aa 
 ```
@@ -204,5 +204,3 @@ def gen(m, depth):
 ```
 
 第三步就是遍历m求解，似乎从2遍历到1000就可以拿到足够的方程去解crt。
-
-
